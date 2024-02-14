@@ -1,0 +1,22 @@
+<h4>Child Component : This is my footer</h4>
+
+
+
+@if(uname > 75 && uname <=100){
+    <h3>Distinction</h3>
+}
+@else if(uname >60 && uname <=75) {
+   <h3>First Class</h3>
+}
+@else if(uname >50 && uname <=60) {
+    <h3>Second Class</h3>
+ }
+@else if(uname >35 && uname <=50) {
+    <h3>Third Class</h3>
+}
+@else if(uname >=0 && uname <=35) {
+    <h3>Fail</h3>
+}
+@else{
+    <h3>Enter Correct Marks</h3>
+}
